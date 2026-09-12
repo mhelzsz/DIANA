@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Evacuation Center 1",
+        "type": "Evacuation Center",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.6050, 7.0750]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Evacuation Center 2",
+        "type": "Evacuation Center",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.6250, 7.0600]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Evacuation Center 3",
+        "type": "Evacuation Center",
+        "capacity": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [125.5900, 7.0900]
+      }
+    }
+  ]
+}

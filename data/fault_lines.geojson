@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Fault Line",
+        "hazard": "Earthquake"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.5800, 7.0450],
+          [125.5950, 7.0550],
+          [125.6100, 7.0650],
+          [125.6250, 7.0750],
+          [125.6400, 7.0850]
+        ]
+      }
+    }
+  ]
+}

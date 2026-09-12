@@ -1,0 +1,483 @@
+/* =========================================
+   DIANA
+   Main Website Styles
+   ========================================= */
+
+   
+/* =========================================
+   GENERAL
+   ========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+
+    margin: 0;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background-color: #f4f6f8;
+
+    color: #222;
+
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+.top-header {
+
+    background-color: #b71c1c;
+
+    color: white;
+
+    min-height: 80px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding:
+        15px
+        30px;
+
+}
+
+
+.brand-title {
+
+    font-size: 30px;
+
+    font-weight: bold;
+
+}
+
+
+.brand-subtitle {
+
+    font-size: 14px;
+
+    margin-top: 4px;
+
+}
+
+
+.location-name {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================================
+   SYSTEM STATUS
+   ========================================= */
+
+.status-section {
+
+    background-color: white;
+
+    padding:
+        15px
+        30px;
+
+    border-bottom:
+        1px solid #ddd;
+
+}
+
+
+.section-title {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+
+.status-container {
+
+    display: flex;
+
+    gap: 15px;
+
+}
+
+
+.status-card {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    border:
+        1px solid #ddd;
+
+    border-radius: 8px;
+
+    padding:
+        10px
+        15px;
+
+    background-color: #fafafa;
+
+    min-width: 200px;
+
+}
+
+
+.status-icon {
+
+    font-size: 25px;
+
+}
+
+
+.status-name {
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    color: #666;
+
+}
+
+
+.status-value {
+
+    font-size: 14px;
+
+    margin-top: 3px;
+
+}
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
+.main-container {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        300px;
+
+    gap: 15px;
+
+    padding: 15px;
+
+}
+
+
+/* =========================================
+   MAP SECTION
+   ========================================= */
+
+.map-section {
+
+    background-color: white;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 2px 6px
+        rgba(0, 0, 0, 0.1);
+
+}
+
+
+.map-header {
+
+    padding: 12px 15px;
+
+    font-weight: bold;
+
+    border-bottom:
+        1px solid #ddd;
+
+}
+
+
+/* Actual Leaflet map */
+
+#map {
+
+    height: 600px;
+
+    width: 100%;
+
+}
+
+
+/* =========================================
+   CONTROL PANEL
+   ========================================= */
+
+.control-panel {
+
+    background-color: white;
+
+    border-radius: 8px;
+
+    padding: 20px;
+
+    box-shadow:
+        0 2px 6px
+        rgba(0, 0, 0, 0.1);
+
+}
+
+
+.control-panel h2 {
+
+    margin-top: 0;
+
+    font-size: 18px;
+
+}
+
+
+.control-description {
+
+    font-size: 13px;
+
+    color: #666;
+
+    line-height: 1.5;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* =========================================
+   MAP BUTTONS
+   ========================================= */
+
+.map-button {
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    background-color: #f5f5f5;
+
+    border:
+        1px solid #ddd;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    text-align: left;
+
+}
+
+
+.map-button.active {
+
+    background-color: #ffebee;
+
+    border-color: #d32f2f;
+
+    font-weight: bold;
+
+}
+
+
+/* =========================================
+   SEPARATOR
+   ========================================= */
+
+hr {
+
+    border: 0;
+
+    border-top:
+        1px solid #ddd;
+
+    margin:
+        20px
+        0;
+
+}
+
+
+/* =========================================
+   LOCATION BUTTON
+   ========================================= */
+
+.location-button {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 10px;
+
+    background-color: #eeeeee;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+}
+
+
+/* =========================================
+   ROUTE BUTTON
+   ========================================= */
+
+.route-button {
+
+    width: 100%;
+
+    padding: 14px;
+
+    background-color: #2e7d32;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+}
+
+
+.route-button:hover {
+
+    background-color: #1b5e20;
+
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+footer {
+
+    background-color: #222;
+
+    color: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 40px;
+
+    padding: 15px;
+
+    font-size: 13px;
+
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 800px) {
+
+
+    .top-header {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+
+    }
+
+
+    .main-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .control-panel {
+
+        order: 2;
+
+    }
+
+
+    #map {
+
+        height: 500px;
+
+    }
+
+
+    .status-container {
+
+        flex-direction: column;
+
+    }
+
+
+    .status-card {
+
+        width: 100%;
+
+    }
+
+
+    footer {
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 10px;
+
+    }
+
+}

@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Flood Zone",
+        "hazard": "Flood"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [125.5900, 7.0800],
+            [125.6200, 7.0800],
+            [125.6200, 7.0600],
+            [125.5900, 7.0600],
+            [125.5900, 7.0800]
+          ]
+        ]
+      }
+    }
+  ]
+}
+        

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>DIANA - Davao Evacuation System</title>
+
+
+    <!-- Leaflet CSS -->
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+
+    <!-- DIANA CSS -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================================
+         HEADER
+         ========================================= -->
+
+    <header class="top-header">
+
+        <div class="brand">
+
+            <div class="brand-title">
+                🚨 DIANA
+            </div>
+
+            <div class="brand-subtitle">
+                Disaster Evacuation Navigation Assistant
+            </div>
+
+        </div>
+
+
+        <div class="location-name">
+
+            📍 Davao City
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =========================================
+         SYSTEM STATUS
+         ========================================= -->
+
+    <section class="status-section">
+
+
+        <div class="section-title">
+
+            ⚠️ SYSTEM STATUS
+
+        </div>
+
+
+        <div class="status-container">
+
+
+            <!-- FLOOD STATUS -->
+
+            <div class="status-card">
+
+                <div class="status-icon">
+                    🌊
+                </div>
+
+                <div>
+
+                    <div class="status-name">
+                        FLOOD
+                    </div>
+
+                    <div class="status-value">
+                        🟢 No Active Data
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- EARTHQUAKE STATUS -->
+
+            <div class="status-card">
+
+                <div class="status-icon">
+                    🌎
+                </div>
+
+                <div>
+
+                    <div class="status-name">
+                        EARTHQUAKE
+                    </div>
+
+                    <div class="status-value">
+                        🟢 No Active Data
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================================
+         MAIN CONTENT
+         ========================================= -->
+
+    <main class="main-container">
+
+
+        <!-- =====================================
+             MAP
+             ===================================== -->
+
+        <section class="map-section">
+
+            <div class="map-header">
+
+                <span>
+                    🗺️ Davao City Map
+                </span>
+
+            </div>
+
+
+            <div id="map"></div>
+
+        </section>
+
+
+
+        <!-- =====================================
+             CONTROLS
+             ===================================== -->
+
+        <aside class="control-panel">
+
+
+            <h2>
+                MAP CONTROLS
+            </h2>
+
+
+            <p class="control-description">
+
+                Select the information you want
+                to display on the map.
+
+            </p>
+
+
+
+            <!-- FLOOD BUTTON -->
+
+            <button
+                class="map-button"
+                id="floodButton"
+            >
+
+                🌊
+                <span>
+                    Flood Zones
+                </span>
+
+            </button>
+
+
+
+            <!-- EARTHQUAKE BUTTON -->
+
+            <button
+                class="map-button"
+                id="earthquakeButton"
+            >
+
+                🌎
+                <span>
+                    Fault Lines
+                </span>
+
+            </button>
+
+
+
+            <!-- EVACUATION CENTER BUTTON -->
+
+            <button
+                class="map-button"
+                id="evacuationButton"
+            >
+
+                🏫
+                <span>
+                    Evacuation Centers
+                </span>
+
+            </button>
+
+
+
+            <!-- SAFE AREA BUTTON -->
+
+            <button
+                class="map-button"
+                id="safeAreaButton"
+            >
+
+                🟢
+                <span>
+                    Safe Areas
+                </span>
+
+            </button>
+
+            <!-- ROAD NETWORK BUTTON -->
+
+<button
+    class="map-button"
+    id="roadButton"
+>
+
+    🛣️
+    <span>
+        Road Network
+    </span>
+
+</button>
+
+            <hr>
+
+
+
+            <!-- LOCATION BUTTON -->
+
+            <button
+                class="location-button"
+                id="locationButton"
+            >
+
+                📍
+                <span>
+                    My Location
+                </span>
+
+            </button>
+
+
+
+            <!-- ROUTE BUTTON -->
+
+            <button
+                class="route-button"
+                id="routeButton"
+            >
+
+                🛣️
+                <span>
+                    Find Safe Route
+                </span>
+
+            </button>
+
+
+        </aside>
+
+
+    </main>
+
+
+
+    <!-- =========================================
+         FOOTER
+         ========================================= -->
+
+    <footer>
+
+        <div>
+            🗺️ Map
+        </div>
+
+        <div>
+            🏫 Evacuation Centers
+        </div>
+
+        <div>
+            ℹ️ About DIANA
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================================
+         LEAFLET JAVASCRIPT
+         ========================================= -->
+
+    <script
+        src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+    </script>
+
+
+
+    <!-- =========================================
+         DIANA JAVASCRIPT
+         ========================================= -->
+
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
+
+    <!-- DIANA JAVASCRIPT -->
+    <script src="js/app.js"></script>
+
+</body>
+</html>

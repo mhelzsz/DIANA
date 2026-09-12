@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Safe Area 1",
+        "classification": "Potential Safe Area"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [125.6250, 7.0850],
+            [125.6450, 7.0850],
+            [125.6450, 7.0700],
+            [125.6250, 7.0700],
+            [125.6250, 7.0850]
+          ]
+        ]
+      }
+    }
+  ]
+}

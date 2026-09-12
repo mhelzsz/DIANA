@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Road 1",
+        "road_type": "Primary Road"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.5750, 7.0500],
+          [125.5900, 7.0600],
+          [125.6050, 7.0700],
+          [125.6200, 7.0800],
+          [125.6400, 7.0900]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Road 2",
+        "road_type": "Secondary Road"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.5900, 7.0900],
+          [125.6000, 7.0800],
+          [125.6100, 7.0700],
+          [125.6200, 7.0600],
+          [125.6250, 7.0500]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Test Road 3",
+        "road_type": "Secondary Road"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [125.5800, 7.0700],
+          [125.5950, 7.0700],
+          [125.6100, 7.0700],
+          [125.6250, 7.0700],
+          [125.6400, 7.0700]
+        ]
+      }
+    }
+  ]
+}
